@@ -17,10 +17,10 @@ CountryView.prototype.render = function(country){
   container.innerHTML = '';
 
   const name = document.createElement('p');
-  name.textContent = country.name;
+  name.textContent = `Country: ${country.name}`;
 
   const region = document.createElement('p');
-  region.textContent = country.region;
+  region.textContent = `Region: ${country.region}`;
 
   const img = document.createElement('img');
   img.classList.add('small-image');
